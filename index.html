@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ssr portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Skills</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello,It's me</h3>
+            <h1>Shiva Shankar Reddy</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Fueling curiosity and powering dreams through coding and creativity. Frontend wizard by day, programming maestro by night. Join me on this exhilarating journey of innovation and endless possibilities. Let's bring ideas to life, one line of
+                code at a time! 💻✨</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/pothireddy-shiva-shankar-reddy-036938208/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/SHIVA-SHANKAR-REDDY"><i class='bx bxl-github'></i></a>
+                <a href="https://leetcode.com/shiva_shankar_reddy/"><img src="images/leetcode (2).png" alt="leetcode" /></a>
+                <a href="mailto:shivashankarreddypothireddy@gmail.com"><i class="bx bxl-gmail"></i></a>
+            </div>
+            <a href="https://drive.google.com/uc?export=download&id=1eEuTYsNWjETU1id6w13RRkwhxFEyFX4Q" class="btn">Download Resume</a>
+        </div>
+        <div class="home-img">
+            <img src="images/home.png" alt="">
+        </div>
+    </section>
+    <!--about section-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/my_photo.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Student</h3>
+            <p>Unleashing the power of code, one line at a time! 🚀 Frontend developer and programming aficionado with a burning passion for creating innovative solutions. Join me on this exhilarating journey through the world of tech and let's turn ideas
+                into reality together! 💻✨</p>
+        </div>
+    </section>
+    <!--services section design-->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <h3>Web Development</h3>
+                <p>
+                    <i class='bx bxl-html5'></i>
+                    <i class='bx bxl-css3'></i>
+                    <i class='bx bxl-javascript'></i>
+                </p>
+            </div>
+            <div class="services-box">
+                <h3>Programming languages</h3>
+                <p>
+                    <i class='bx bxl-c-plus-plus'></i>
+                    <i class='bx bxl-python'></i>
+                    <i class='bx bxl-java'></i>
+                </p>
+            </div>
+            <div class="services-box">
+                <h3>Tools</h3>
+                <p>
+                    <img src="images/vs code.png" alt="vs code" />
+                    <i class='bx bxl-github'></i>
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--portfolio section-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/project1.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>ToDo App</h4>
+                    <a href="https://ssrtodo.ccbp.tech/"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/project2.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Weather Application</h4>
+                    <a href="https://ssrforecastweather.netlify.app/"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="mailto:shivashankarreddypothireddy@example.com" method="post" enctype="text/plain">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" name="Full Name" required>
+                <input type="email" placeholder="Email Address" name="Mail Id" required>
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" name="Phone" required>
+                <input type="text" placeholder="Email Subject" name="Subject" required>
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" name="body" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Shiva Shankar | All Rights Reserved</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
